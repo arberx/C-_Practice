@@ -1,0 +1,6 @@
+c:\users\arber\documents\visual studio 2015\Projects\EIP_Practice_Csh\EIP_Practice_Csh\bin\Debug\EIP_Practice_Csh.exe.config
+c:\users\arber\documents\visual studio 2015\Projects\EIP_Practice_Csh\EIP_Practice_Csh\bin\Debug\EIP_Practice_Csh.exe
+c:\users\arber\documents\visual studio 2015\Projects\EIP_Practice_Csh\EIP_Practice_Csh\bin\Debug\EIP_Practice_Csh.pdb
+c:\users\arber\documents\visual studio 2015\Projects\EIP_Practice_Csh\EIP_Practice_Csh\obj\Debug\EIP_Practice_Csh.csprojResolveAssemblyReference.cache
+c:\users\arber\documents\visual studio 2015\Projects\EIP_Practice_Csh\EIP_Practice_Csh\obj\Debug\EIP_Practice_Csh.exe
+c:\users\arber\documents\visual studio 2015\Projects\EIP_Practice_Csh\EIP_Practice_Csh\obj\Debug\EIP_Practice_Csh.pdb
