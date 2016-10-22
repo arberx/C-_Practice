@@ -30,7 +30,10 @@ namespace EIP_Practice_Csh
             Look_Say say = new Look_Say();
             //say.Look(n);
 
-
+            //9.3 Test a string over , for well formed ness
+            well_form wf = new well_form();
+            bool o = wf.well_formness("([]){()}");
+            Console.WriteLine(o);
 
     }//end Program method
 }
@@ -143,7 +146,7 @@ namespace EIP_Practice_Csh
 
     } // end class permute
 
-
+    //7.?
     class Look_Say
     {
         public void Look(int n)
@@ -174,4 +177,35 @@ namespace EIP_Practice_Csh
         private string looky =  "1" ;
     }
 
+
+    class well_form
+    {
+        public bool well_formness(string s)
+        {
+            //create stack
+            Stack<char> c_st = new Stack<char>();
+
+            for (int i = 0; i < s.Length; ++i)
+            {
+                //if left brace, push onto stack
+                if (s[i] == '{' || s[i] == '(' || s[i] == '[')
+                {
+                    c_st.Push(s[i]);
+                }
+                //if right brace
+                else
+                {
+                    /*
+                     Just add functionality that compares the 
+                    char temp = c_st.Pop();
+                    if (temp != s[i])
+                    {
+                        return false;
+                    }
+                    */
+                }//end if/else
+            }
+            return true;
+        }
+    }//end class
 }//end of namespace
